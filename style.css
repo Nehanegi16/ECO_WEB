@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    position: relative;
+    margin-bottom: 40%;
+    width: 100%;
+    height: 35%;
+    background-color: rgb(1, 9, 1);
+
+}
+.inner{
+    position: absolute;
+    margin-top: 30px;
+    width: 100%;
+    height: 60%;
+    background-color: rgb(103, 180, 103); 
+}
+.box{ 
+    display: flex;
+    position: absolute;
+    margin-top: 160px; 
+    margin-left: 35%;
+
+}
+.box1{
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;  
+}
+.box2{
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    margin-left: 25px;
+    
+}
+.box3{
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    margin-left: 25px;
+    
+}
+
+.next{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    background-color: lightgreen;
+    margin-top: -40%;
+}
+.next .img{
+    width: 50%;
+    height: 100%;
+    background-color: lightgreen;
+}
+.pra{
+    margin: 5% 0 0 5%;
+
+}
+.put{
+    display: flex;
+    width: 20%;
+    height: 30%;
+    margin: 4% 0 0 20%;
+    box-shadow: -30px -50px  lightgreen;
+}
+.put img{
+    width: 450px;
+    height: 300px;
+}
+.put i{
+    font-size: 100px;
+    color: lightgreen;
+}
+.pra2{
+    margin-left: 200px;
+    margin-top: 50px;
+    width:100%;
+    height: 300px;  
+    font-size: 25px;
+ 
+}
+.pull{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    height: 350px;
+    background-color: lightgreen;
+}
+.pull h1{
+    margin: -90% 0 0 5%;
+}
+.pra3{
+    margin: 45% 0 0 10%;
+}
+.pull img{
+    width: 90%;
+    height: 100%;
+}
+.foother{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+}
+
+.info{
+    position: relative;
+    width: 100%;
+    height: 40%;
+    background-color: rgb(209, 209, 145);
+
+   
+}
+.one{
+    position: absolute;
+    height: 190px;
+    width: 180px;
+    margin:3% 30%;
+    box-shadow: -20px -20px rgb(69, 203, 69);
+    
+}
+.one p{
+    margin-top: 20px;
+}
+.two{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    margin:10% 48%;
+    box-shadow: -20px -20px rgb(69, 203, 69);
+}
+.two p{
+ margin-top: -80px;
+}
+.three{
+    position: absolute;
+    height: 190px;
+    width: 150px;
+    margin:-17% 65%;
+    box-shadow: -20px -20px rgb(69, 203, 69);
+}
+.three p{
+    margin-top: 20px;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.last{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    background-color: lightgreen;
+    margin-top: -1%;
+}
+.last img{
+    width: 50%;
+    height: 100%;
+    background-color: lightgreen;
+}
+.pra{
+    margin: 5% 0 0 5%;
+
+}
+.pic{
+    width: 100%;
+    height: 50%;
+   
+}
+h2{
+    margin: 20px 0 0 45%;
+}
+.pic hr{
+    width: 20%;
+    margin-left: 40%;
+
+}
+.outer{
+    height: 400px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(3,180px);
+    gap: 10px;
+    margin: 1% 0 0 35%;
+
+
+}
+.outer .bo{
+    border: 2px solid black;
+    background-image:url("i1.jpg") ;
+    background-size: cover;
+}
+.footer{
+    position: relative;
+    width: 100%;
+    height: 30%;
+    background-color: rgb(1, 9, 1);
+}
+.inner2{
+    position: absolute;
+    margin-top: 80px;
+    width: 100%;
+    height: 60%;
+    background-color: rgb(7, 125, 7);
+
+}
+.footer-box{ 
+    display: flex;
+    position: absolute;
+    margin-top: 25px; 
+    margin-left: 35%;
+
+}
+@media (max-width:1040px){
+    .header{
+      height: 43%;
+    
+    }
+    .box{ 
+        margin-top: 200px; 
+        margin-left: 25%;
+    }
+    .box1{
+        width: 100px;
+        height: 100px;
+    }
+    .box2{
+        width: 100px;
+        height: 100px;   
+    }
+    .box3{
+        width: 100px;
+        height: 100px;    
+    }
+    .next{
+        margin-top: -40%;
+        height: 30%;
+    }
+    .put{
+        display: flex;
+        width: 40%;
+        height: 20%;
+        margin: 12% 0 0 10%;
+        box-shadow: -20px -20px  lightgreen;
+    }
+    .put img{
+        width: 250px;
+        height: 150px;
+    }
+    .pra2{
+        margin-left: 100px;
+        margin-top: -90px;
+        width: 400px;
+        height: 300px;
+        font-size: 20px;
+    }
+    .pull{
+        margin-top: 50px;
+        width: 100%;
+        height: 350px;
+
+    }
+  .pull img{
+    width: 50%;
+    height: 100%;
+    display: block;
+    margin-left: 100px;
+    margin-bottom: 300px;
+  }
+  .pra3{
+    margin:  160px 0 0 30px;
+    width: 50%;
+  }
+  .one{
+    margin: 20px 0  0 25px;
+    height: 150px;
+    width: 150px;
+  }
+  .two{
+    margin: 150px 0  0 215px;
+    height: 120px;
+    width: 150px;
+  }
+  .three{
+    margin: -340px 0  0 400px;
+    height: 150px;
+    width: 150px;
+  }
+  .info{
+    margin-top: 10px;
+  }
+  img{
+    height: 150px;
+    width: 150px;
+
+  }
+  .pic h2{
+    margin-left: 35%;
+  }
+  .pic hr{
+    width: 20%;
+    background-color: black;
+    margin-left: 38%;
+  }
+  .outer{
+    height: 300px;
+    width: 300px;
+    margin: 1% 0 0 3%;
+
+}
+.footer-box{ 
+    margin-left: 20%;
+
+}
+}
+/* @media (max-width:415px){
+    .box{ 
+        margin-top: 60px;
+        margin-left: 15px;
+        background-color: red;
+        display: inline;
+    }   
+    .inner{
+        height: 40%;
+       
+    }
+} */
